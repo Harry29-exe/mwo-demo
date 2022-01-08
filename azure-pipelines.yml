@@ -21,7 +21,7 @@ steps:
     #azureStorageAccountName: # Required when jdkSourceOption == AzureStorage
     #azureContainerName: # Required when jdkSourceOption == AzureStorage
     #azureCommonVirtualFile: # Required when jdkSourceOption == AzureStorage
-    jdkDestinationDirectory: 
+    jdkDestinationDirectory: /jdk/
     #cleanDestinationDirectory: true 
 - task: Maven@3
   inputs:
