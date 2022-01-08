@@ -16,7 +16,7 @@ steps:
     mavenPomFile: 'pom.xml'
     mavenOptions: '-Xmx3072m'
     javaHomeOption: 'Path'
-    jdkUserInputPath: '/usr/bin/java'
+    jdkUserInputPath: '/usr/bin/javac'
     jdkVersionOption: '1.11'
     jdkArchitectureOption: 'x64'
     publishJUnitResults: true
