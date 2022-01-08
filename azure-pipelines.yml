@@ -13,7 +13,7 @@ pool:
 steps: 
 - task: JavaToolInstaller@0
   inputs:
-    versionSpec: '11'
+    versionSpec: '1.11'
     jdkArchitectureOption: 'x64'
     jdkSourceOption: 'PreInstalled'
 
