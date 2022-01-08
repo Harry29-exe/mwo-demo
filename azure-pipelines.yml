@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'Azure Pipelines'
+  vmImage: Azure Pipelines
 
 steps:
 - task: Maven@3
