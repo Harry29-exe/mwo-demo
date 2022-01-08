@@ -10,6 +10,7 @@ pool:
   name: MWO_DEMO
   # vmImage: Azure Pipelines
 
+steps: 
 - task: JavaToolInstaller@0
   inputs:
     versionSpec: '1.11'
