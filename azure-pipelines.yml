@@ -10,19 +10,12 @@ pool:
   name: MWO_DEMO
   # vmImage: Azure Pipelines
 
-steps:
 - task: JavaToolInstaller@0
   inputs:
-    versionSpec: '11' 
-    jdkArchitectureOption: x64
-    jdkSourceOption: AzureStorage
-    #jdkFile: # Required when jdkSourceOption == LocalDirectory
-    #azureResourceManagerEndpoint: # Required when jdkSourceOption == AzureStorage
-    #azureStorageAccountName: # Required when jdkSourceOption == AzureStorage
-    #azureContainerName: # Required when jdkSourceOption == AzureStorage
-    #azureCommonVirtualFile: # Required when jdkSourceOption == AzureStorage
-    jdkDestinationDirectory: /jdk/
-    #cleanDestinationDirectory: true 
+    versionSpec: '1.11'
+    jdkArchitectureOption: 'x64'
+    jdkSourceOption: 'PreInstalled'
+
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
