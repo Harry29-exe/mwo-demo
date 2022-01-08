@@ -8,11 +8,9 @@ trigger:
 
 pool:
   name: MWO_DEMO
-  # vmImage: Azure Pipelines
+  vmImage: 'ubuntu-latest'
 
 steps: 
-
-
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
