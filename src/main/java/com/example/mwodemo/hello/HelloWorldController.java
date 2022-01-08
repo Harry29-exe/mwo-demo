@@ -12,4 +12,9 @@ public class HelloWorldController {
         return "Hello pipelines";
     }
 
+    @GetMapping("/hello2")
+    public String hello2() {
+        return "Hello pipelines";
+    }
+
 }
